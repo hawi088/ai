@@ -17,3 +17,4 @@
 with open('textFile.txt','r') as file:
     content = file.readlines()
     print(content)
+    

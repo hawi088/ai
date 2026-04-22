@@ -13,3 +13,13 @@ print(ones[mask2])
 array1 = np.array([1,2,3,-2,-4])
 positive = np.where(array1>2,array1,0)
 print(positive)
+# size =(20,30)
+# randomized = np.random.random(size)
+# print(randomized)
+
+grid =np.array( [
+    [1,3,1],
+    [1,2,3],
+    [4,6,0]
+])
+print(grid ==1)
